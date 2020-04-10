@@ -1,129 +1,209 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
+  <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!---customized css-->
-    <link rel="stylesheet" href="../style/main-style.css">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="../style/main-style.css">
+    <title>Front End </title>
+  </head>
+  <body>
+    <!---navigation bar -->
+    <header>
+      <div class="collapse bg-dark" id="navbarHeader">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8 col-md-7 py-4">
+              <h4 class="text-white">About</h4>
+              <p class="text-muted">You don't need to be a computer genius inorder to learn how to code. <a href="message-me.html">Leave a message</a> to reach out to us </p>
+            </div>
+            <div class="col-sm-4 offset-md-1 py-4">
+              <h4 class="text-white">Take a Look</h4>
+              <ul class="list-unstyled">
+                <li><a href="home.html" class="text-white">Home</a></li>
+                <li><a href="front-end.html" class="text-white">Front End</a></li>
+                <li><a href="back-end.html" class="text-white">Back End</a></li>
+                <li><a href="app-end.html" class="text-white">Mobile Developer</a></li>
+                <li><a href="machine-learning.html" class="text-white">Machine learning</a></li>
 
-    <title>Hello, world!</title>
-  
-</head>
-<body>
-    <!---nav bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-dark" >
-        <a class="navbar-brand" href="home.html">Learn to Code</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarText">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="home.html">Home<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="front-end.html">Front End</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="back-end.html">Back End</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="app-dev.html">Mobile Application</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="machine-learning.html">Machine Learning</a>
-              </li><li class="nav-item">
-                <a class="nav-link" href="message-me.html">Leave A Message</a>
-              </li>
-          </ul>
-          <span class="navbar-text">
-            You don't need to be a computer genius to learn how to code
-          </span>
+                
+              </ul>
+            </div>
+          </div>
         </div>
-      </nav>
-      <!---message-->
-      <div class="card bg-dark text-dark">
-        <img src="../images/laptop.jpeg" class="card-img" alt="...">
-        <div class="card-img-overlay">
-          <h5 class="card-title" style="text-align: center;">User Interface</h5>
-          <p class="card-text" style="text-align: center;">The best way to learn a programming language is to spend a great amount of time mastering the fundamentals. Get to 
-              build awesome user interfaces by mastering the fundamentals of these languages
+      </div>
+      <div class="navbar navbar-dark bg-dark box-shadow">
+        <div class="container d-flex justify-content-between">
+          <a href="#" class="navbar-brand d-flex align-items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
+            <strong>Learn To Code</strong>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main role="main">
+
+      <section class="jumbotron text-center" id="message">
+        <div class="container">
+          <h1 class="jumbotron-heading">Frond End Development</h1>
+          <p class="lead text-muted">Learn how to build fast, responsive and beautiful user interfaces. It won't hurt it to learn a new technology.</p>
+          <p>
+            <a href="#" class="btn btn-primary my-2">FAQs</a>
+            <a href="#" class="btn btn-secondary my-2">Leave a message</a>
           </p>
-          
         </div>
-      </div>
-      <!--languages-->
-      <div class="row row-cols-1 row-cols-md-2">
-        <div class="col mb-4">
-          <div class="card">
-            <img src="../images/html5.jfif" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">HTML 5</h5>
-              <p class="card-text">This is a very good language to start with. It is very easy and the most beginner friendly. It may take just an hour to master the basics depending on how fast you are.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col mb-4">
-          <div class="card">
-            <img src="../images/house.jpeg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">CSS</h5>
-              <p class="card-text">It may not be regarded as a programming language but it won't hut if you learn a thing or two about it</p>.
-            </div>
-          </div>
-        </div>
-        <div class="col mb-4">
-          <div class="card">
-            <img src="../images/bootstrap.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">bootstrap</h5>
-              <p class="card-text">This is a great framework that will come in handy if you are going in for front end development
-                  .Bootstrap makes you rigth less css because it contains in built css classes. 
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col mb-4">
-          <div class="card">
-            <img src="../images/javascript.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Javascript</h5>
-              <p class="card-text">Javascript is the main deal if you are going in for web development as it can be used from the front end to the 
-                  back end. It will surely get harder as you go on so you will need to master the fundamental even faster and smarter. 
-                  Remember its not how hard you study but hoe smart you do so .
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col mb-4">
-            <div class="card">
-              <img src="../images/angular.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Angular</h5>
-                <p class="card-text">Angular is a framework that uses mainly typescript. Typescript is a superset of javascript 
-                    which uses advanced javascript features like arrow functions. Angular makes your web pages load very fast unlike 
-                    angular js. It may be stressful to learn since it deals with typescript but it is worth it.
-                </p>
+      </section>
+
+      <div class="album py-5 bg-light">
+        <div class="container">
+
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" src="../images/html5.jfif" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">HTML 5 is a scripting languge which is used as the foundation on which other front end languages are embedded</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+            <a href="https://youtu.be/FNGoExJlLQY" class="btn btn-secondary my-2">Get Started</a>
+                      
+                    </div>
+                    <small class="text-muted">About 2 hours</small>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col mb-4">
-            <div class="card">
-              <img src="../images/react-native.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">React</h5>
-                <p class="card-text"> React is a very popular javascript <span id="strike">framework</span> libary which contains already 
-                    build in functions which makes front end development much easier. Have you realized that most if not 
-                    all of these frameworks depend on Javascript? <br> So take a good amount if time to master and understand how javascript works
-                </p>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" src="../images/css.jfif" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">CSS helps design the user interface of the website. It is surely worth learning because it has been around for long. However, designing 
+                    becomes very easy once you study its framework: bootstrap
+                  </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">                      
+            <a href="https://youtu.be/KN6oBEOz2ZI" target="_blank"  class="btn btn-secondary my-2">Latest CSS features</a>
+
+                    </div>
+                    <small class="text-muted">About 4 hours</small>
+                  </div>
+                </div>
               </div>
             </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" src="../images/bootstrap.png" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">There are so many CSS frameworks out there, but I chose to study bootstrap. It is very easy to learn since it 
+                    open source and has a great community. I know it might be difficult choosing a path as a software developer but learn to follow one course at 
+                    a time. Do not be in haste.
+                  </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+            <a href="https://www.youtube.com/watch?v=5GcQtLDGXy8&t=52s" target="_blank"  class="btn btn-secondary my-2">Bootstrap</a>
+
+                      
+                    </div>
+                    <small class="text-muted">1 hour</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" src="../images/javascript.png" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">JavaScript is the main main if you want to study web development. It makes the page more interactive, like the effects 
+                    of clicking a buttuon or hovering over a feature. The good thing about Javavscript is that it can be used to as a front and back end language that 
+                    way you use one stone to shoot one birth
+                  </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+            <a href="https://codewithmosh.com/p/full-stack-javascript-developer-bundle" target="_blank"  class="btn btn-secondary my-2">Code with Mosh</a>
+
+                     
+                    </div>
+                    <small class="text-muted">60 hours</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" src="../images/angular.png" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">Angular is a JavaScript framework which uses typescript thereby making its learning curve steep. Typescript is a superset of JavaScript which makes it worth 
+                    learning. On the other hand Angular.Js uses javascript instead of typescript. There are alot of controversies about these but I advice you 
+                    to do more research and know what to study based on your path.
+                  </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a href="https://codewithmosh.com/p/angular-master-class" target="_blank"  class="btn btn-secondary my-2">Code with Mosh</a>
+                    </div>
+                    <small class="text-muted">30 hours</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" src="../images/react-native.png" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">React native is a javascript library, so if you planning to fast user interfaces or get a job, you should study react.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a href="https://codewithmosh.com/p/mastering-react" target="_blank"  class="btn btn-secondary my-2">Code with Mosh</a>
+
+                    </div>
+                    <small class="text-muted">15 hours</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            
+    </main>
+
+    <footer class="text-muted">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h3>Why should I be a Front End Developer?</h3>
+         <p>Front End developers are in high demand with a pretty good salary. So many deveopers would like to focus 
+           only on the back end but you should probably study some front end technologies and earn a higher salary.
+         </p>
           </div>
+          <div class="col-md-4">
+            <h3>Should I watch youtube tutorials?</h3>
+            <p>I would say yes and no at the same time. Youtube tutorials only show you the basic language syntax which I thick is good. But 
+              if you are willing to go deeper with it, look for an online course; I personally recommend Mosh.
+              Let's face it, the tutorials on youtube are great but no body is going to give the full core of the course for free. So if you are willing 
+              to be a pro, you must spend in one way or the other.
+            </p>
+            
+          </div>
+          <div class="col-md-4">
+            <h3>Build Projects</h3>
+            <p>The best way not to give up while studying is to try an build a project. Running code on the command line would make your studies very 
+              boring: have something to build
+            </p>
+          </div>
+        </div>
       </div>
-    
-</body>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
 </html>

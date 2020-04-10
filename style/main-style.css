@@ -3,7 +3,7 @@ body{
 }
 .carousel-inner img{
     width: 100%;
-    height: 20%;
+    height: 10%;
 }
 h5{
     text-align: center;
@@ -11,6 +11,8 @@ h5{
 p{
     text-align: center;
 }
-#strike{
-;
+#message {
+    background: url('../images/computer-setup.jpeg') center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
