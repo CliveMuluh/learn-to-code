@@ -1,5 +1,6 @@
 body{
     height: 100%;
+    vertical-align: 5rem;
 }
 .carousel-inner img{
     width: 100%;
@@ -9,7 +10,7 @@ h5{
     text-align: center;
 }
 p{
-    text-align: center;
+    text-align: left;
 }
 #message {
     background: url('../images/computer-setup.jpeg') center center;
@@ -21,4 +22,7 @@ footer p{
 }
 main p{
     text-align: center;
+}
+.card-text {
+    text-align: left;
 }
